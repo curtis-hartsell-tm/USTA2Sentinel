@@ -1,5 +1,5 @@
 # USTA2Sentinel
-This script runs from TMNA CTI's Sentinel-IOC-Feeder.
+This script runs on TMNA CTI's Sentinel-IOC-Feeder system.
 
 ## Overview
 This script automates the process of fetching threat indicators from PRODAFT's external API and uploads them to Azure Sentinel. It handles indicators such as URLs and malware hashes and checks for duplicates before uploading to ensure that only new indicators are submitted.
